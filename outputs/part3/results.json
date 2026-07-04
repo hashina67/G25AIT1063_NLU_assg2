@@ -1,0 +1,148 @@
+{
+  "corpus": "Brown (universal tagset)",
+  "train_sents": 45872,
+  "test_sents": 11468,
+  "q11": {
+    "top_transitions_from_NOUN": [
+      {
+        "target": ".",
+        "log_prob": -1.2601195317023723,
+        "prob": 0.2836201228774173
+      },
+      {
+        "target": "ADP",
+        "log_prob": -1.411088545442211,
+        "prob": 0.24387766668933775
+      },
+      {
+        "target": "VERB",
+        "log_prob": -1.840782266045059,
+        "prob": 0.15869323720782608
+      },
+      {
+        "target": "NOUN",
+        "log_prob": -1.8974752287040286,
+        "prob": 0.14994672289101998
+      },
+      {
+        "target": "CONJ",
+        "log_prob": -2.819147819314029,
+        "prob": 0.0596567593915074
+      }
+    ],
+    "top_emissions_from_VERB": [
+      {
+        "target": "is",
+        "log_prob": -3.1597394960293834,
+        "prob": 0.0424367945941988
+      },
+      {
+        "target": "was",
+        "log_prob": -3.185329109276359,
+        "prob": 0.041364630077091236
+      },
+      {
+        "target": "be",
+        "log_prob": -3.6174453783646903,
+        "prob": 0.026851183565025468
+      },
+      {
+        "target": "had",
+        "log_prob": -3.844296612724259,
+        "prob": 0.021401449775629963
+      },
+      {
+        "target": "are",
+        "log_prob": -4.010040794110752,
+        "prob": 0.018132655516155692
+      }
+    ]
+  },
+  "q13": {
+    "overall_accuracy": 0.9397442468461562,
+    "seen_accuracy": 0.9496449123177781,
+    "oov_accuracy": 0.49445544554455445,
+    "total_tokens": 232177,
+    "seen_tokens": 227127,
+    "oov_tokens": 5050
+  },
+  "q14": {
+    "mis_tagged_examples": [
+      {
+        "token": "average",
+        "gold": "VERB",
+        "predicted": "NOUN",
+        "in_vocab": true,
+        "reason": "lexical ambiguity / sparse transition"
+      },
+      {
+        "token": "$200",
+        "gold": "NOUN",
+        "predicted": "ADP",
+        "in_vocab": true,
+        "reason": "lexical ambiguity / sparse transition"
+      },
+      {
+        "token": "depending",
+        "gold": "ADP",
+        "predicted": "VERB",
+        "in_vocab": true,
+        "reason": "lexical ambiguity / sparse transition"
+      },
+      {
+        "token": "very",
+        "gold": "ADV",
+        "predicted": "ADJ",
+        "in_vocab": true,
+        "reason": "lexical ambiguity / sparse transition"
+      },
+      {
+        "token": "tempting",
+        "gold": "VERB",
+        "predicted": "NOUN",
+        "in_vocab": true,
+        "reason": "lexical ambiguity / sparse transition"
+      },
+      {
+        "token": "offer",
+        "gold": "NOUN",
+        "predicted": "VERB",
+        "in_vocab": true,
+        "reason": "lexical ambiguity / sparse transition"
+      },
+      {
+        "token": "as",
+        "gold": "ADP",
+        "predicted": "ADV",
+        "in_vocab": true,
+        "reason": "lexical ambiguity / sparse transition"
+      },
+      {
+        "token": "non-partisan",
+        "gold": "ADJ",
+        "predicted": "DET",
+        "in_vocab": false,
+        "reason": "OOV word"
+      },
+      {
+        "token": "house",
+        "gold": "VERB",
+        "predicted": "NOUN",
+        "in_vocab": true,
+        "reason": "lexical ambiguity / sparse transition"
+      },
+      {
+        "token": "Spartan",
+        "gold": "NOUN",
+        "predicted": "DET",
+        "in_vocab": true,
+        "reason": "lexical ambiguity / sparse transition"
+      }
+    ],
+    "error_type_summary": {
+      "lexical ambiguity / sparse transition": 11437,
+      "OOV word": 2553
+    },
+    "most_frequent_error": "lexical ambiguity / sparse transition"
+  }
+}

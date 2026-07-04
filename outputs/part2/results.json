@@ -1,0 +1,30 @@
+{
+  "corpus": "Provided English dataset (train+dev+test, 80/20 split)",
+  "train_sentences": 9600,
+  "test_sentences": 2400,
+  "q6": {
+    "unigram_vocab_size": 5335,
+    "bigram_count": 51830
+  },
+  "q7": {
+    "laplace_smoothing": true,
+    "explanation": "Raw MLE assigns zero probability to unseen bigrams, making perplexity undefined and preventing generalization. Laplace (add-1) smoothing assigns non-zero probability to unseen events by adding 1 to all counts."
+  },
+  "q8": {
+    "perplexity_unigram_mle": 346.49667847632065,
+    "perplexity_bigram_laplace": 165.8830841464905
+  },
+  "q9_samples": [
+    "<s> child waters and took fear wherever they brahmins and watch exist </s>",
+    "<s> so accused muscles </s>",
+    "<s> specify resource brass communicate superlibrarian clothing top of shlokas nights executes completes one who are eating wheel toward communication auspicious able juda the yogi is hand importance of <unk> of </s>",
+    "<s> to idols we shall come unto lizard tail follows administrators feather </s>",
+    "<s> festus gopal journey generation </s>"
+  ],
+  "q10": {
+    "perplexity_unigram_mle": 346.49667847632065,
+    "perplexity_bigram_laplace": 165.8830841464905,
+    "perplexity_trigram_laplace": 562.7530363840111,
+    "trigram_higher_than_bigram": true
+  }
+}

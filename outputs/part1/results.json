@@ -1,0 +1,142 @@
+{
+  "corpus": "Brown Corpus (NLTK)",
+  "total_tokens": 1000000,
+  "total_types": 46207,
+  "q1_top10": [
+    {
+      "word": "the",
+      "frequency": 62169
+    },
+    {
+      "word": ",",
+      "frequency": 49603
+    },
+    {
+      "word": ".",
+      "frequency": 40669
+    },
+    {
+      "word": "of",
+      "frequency": 33360
+    },
+    {
+      "word": "and",
+      "frequency": 24709
+    },
+    {
+      "word": "to",
+      "frequency": 22854
+    },
+    {
+      "word": "a",
+      "frequency": 19854
+    },
+    {
+      "word": "in",
+      "frequency": 19154
+    },
+    {
+      "word": "is",
+      "frequency": 9728
+    },
+    {
+      "word": "that",
+      "frequency": 9196
+    }
+  ],
+  "q2": {
+    "slope": -1.2994144795326599,
+    "intercept": 5.949719803491542,
+    "zipf_prediction_slope": -1.0,
+    "confirms_zipf": false
+  },
+  "q3": {
+    "top20": [
+      "the",
+      ",",
+      ".",
+      "of",
+      "and",
+      "to",
+      "a",
+      "in",
+      "is",
+      "that",
+      "for",
+      "was",
+      "it",
+      "he",
+      "as",
+      "``",
+      "''",
+      "with",
+      "be",
+      "on"
+    ],
+    "bottom20": [
+      "implant",
+      "senselessly",
+      "hoarsely",
+      "child-face",
+      "dabbed",
+      "toe-tips",
+      "teratologies",
+      "nicest",
+      "burned-out",
+      "ground-truck",
+      "threshed",
+      "bawled",
+      "perplexity",
+      "cow-man",
+      "cow-people",
+      "resembling",
+      "kindliness",
+      "geysers",
+      "commingled",
+      "b'dikkat's"
+    ],
+    "top20_categories": {
+      "open-class": 0,
+      "closed-class": 20,
+      "other": 0
+    },
+    "bottom20_categories": {
+      "open-class": 13,
+      "closed-class": 7,
+      "other": 0
+    }
+  },
+  "q4": {
+    "sizes": [
+      10000,
+      50000,
+      100000,
+      500000,
+      1000000
+    ],
+    "ttr": [
+      0.2507,
+      0.16404,
+      0.13082,
+      0.06624,
+      0.046207
+    ]
+  },
+  "q5": {
+    "method": "MATTR (window=500)",
+    "sizes": [
+      10000,
+      50000,
+      100000,
+      500000,
+      1000000
+    ],
+    "mattr": [
+      0.5015149984212188,
+      0.5113138320437971,
+      0.5126648174390207,
+      0.4997477963007081,
+      0.48340979948994545
+    ]
+  }
+}
